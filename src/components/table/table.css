@@ -1,0 +1,25 @@
+table img {
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  border-spacing: 0;
+  gap: 10px;
+}
+
+th, td {
+  border-bottom: 1px solid blue;
+  padding: 10px;
+}
+
+table, th, tr {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.table--header {
+  background-color: blueviolet;
+  display: flex;
+  width: 100%;
+}

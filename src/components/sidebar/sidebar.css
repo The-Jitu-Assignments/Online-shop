@@ -1,0 +1,21 @@
+.sidebar {
+  width: 20%;
+  transition: width 2s;
+}
+
+.sidebar ul li, .sidebar--all {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.sidebar--all {
+  margin-top: 20px;
+}
+
+.active {
+  color: white;
+  background-color: var(--lightBlue);
+  width: 100%;
+}

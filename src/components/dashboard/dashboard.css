@@ -1,0 +1,14 @@
+.dashboard {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.main--content {
+  flex: 1;
+  background-color: var(--darkWhite);
+}
